@@ -44,6 +44,14 @@ const Hero = () => {
     <div className="hero">
       <div className="wrapper">
         <motion.div
+          className="slidingTextContainer"
+          variants={sliderVariants}
+          initial="initial"
+          animate="animate"
+        >
+          JavaScript React NodeJS Express
+        </motion.div>
+        <motion.div
           className="textContainer"
           variants={textVariants}
           initial="initial"
@@ -65,14 +73,7 @@ const Hero = () => {
             animate="scrollButton"
           />
         </motion.div>
-        <motion.div
-          className="slidingTextContainer"
-          variants={sliderVariants}
-          initial="initial"
-          animate="animate"
-        >
-          JavaScript React NodeJS Express
-        </motion.div>
+
         <div className="imageContainer">
           <img className="animeGirl" src="/hero.png" alt="Hero" />
         </div>

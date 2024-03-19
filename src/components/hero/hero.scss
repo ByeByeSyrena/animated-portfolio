@@ -37,6 +37,8 @@
       .buttons {
         display: flex;
         gap: 10px;
+        position: relative;
+        z-index: 1000;
 
         button {
           padding: 20px;

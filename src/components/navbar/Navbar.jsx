@@ -6,6 +6,7 @@ import Sidebar from "../sidebar/Sidebar";
 import facebook from "../../public/facebook.png";
 import instagram from "../../public/instagram.png";
 import dribbble from "../../public/dribbble.png";
+import youtube from "../../public/youtube.png";
 
 const Navbar = () => {
   return (

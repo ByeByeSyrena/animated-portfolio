@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import "./hero.scss";
 import hero from "../../public/hero.png";
+import scroll from "../../public/scroll.png";
 
 const textVariants = {
   initial: {
@@ -66,7 +67,7 @@ const Hero = () => {
             <motion.button variants={textVariants}>Contact me</motion.button>
           </motion.div>
           <motion.img
-            src="/animated-portfolio/public/scroll.png"
+            src={scroll}
             alt="scroll"
             className="scrollImg"
             variants={textVariants}

@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import "./hero.scss";
-import { info } from "sass";
+import hero from "../../public/hero.png";
 
 const textVariants = {
   initial: {
@@ -75,11 +75,7 @@ const Hero = () => {
         </motion.div>
 
         <div className="imageContainer">
-          <img
-            className="animeGirl"
-            src="/animated-portfolio/public/hero.png"
-            alt="Hero"
-          />
+          <img className="animeGirl" src={hero} alt="Hero" />
         </div>
       </div>
     </div>

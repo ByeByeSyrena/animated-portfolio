@@ -17,16 +17,16 @@ const Navbar = () => {
         </motion.span>
         <div className="social">
           <a href="#">
-            <img src="../../public/facebook.png" alt="fb" />
+            <img src="/animated-portfolio/public/facebook.png" alt="fb" />
           </a>
           <a href="#">
-            <img src="../../public/instagram.png" alt="insta" />
+            <img src="/animated-portfolio/public/instagram.png" alt="insta" />
           </a>
           <a href="#">
-            <img src="../../public/youtube.png" alt="youtube" />
+            <img src="/animated-portfolio/public/youtube.png" alt="youtube" />
           </a>
           <a href="#">
-            <img src="../../public/dribbble.png" alt="dribbble" />
+            <img src="/animated-portfolio/public/dribbble.png" alt="dribbble" />
           </a>
         </div>
       </div>
